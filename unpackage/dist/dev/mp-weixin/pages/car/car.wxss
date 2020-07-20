@@ -1,0 +1,77 @@
+.carContainer {
+  background: #eee;
+}
+.carContainer .header {
+  margin-left: 10rpx;
+}
+.carContainer .content .noLogin {
+  margin-top: 40%;
+}
+.carContainer .content .noLogin image {
+  margin-left: 30%;
+  width: 248rpx;
+  height: 248rpx;
+}
+.carContainer .content .noLogin .btn {
+  width: 480rpx;
+  height: 92rpx;
+  background: #bb2c08;
+}
+.carContainer .content .loginGoods {
+  position: relative;
+}
+.carContainer .content .loginGoods .goods {
+  height: 220rpx;
+  width: 100%;
+  background: #fff;
+}
+.carContainer .content .loginGoods .goods .goodsImg {
+  width: 172rpx;
+  height: 172rpx;
+}
+.carContainer .content .loginGoods .goods .detail .name {
+  font-size: 26rpx;
+}
+.carContainer .content .loginGoods .goods .detail .des {
+  font-size: 24rpx;
+}
+.carContainer .content .loginGoods .goods .detail .price {
+  font-size: 26rpx;
+}
+.carContainer .content .loginGoods .goods .count {
+  width: 180rpx;
+  height: 60rpx;
+  border: 1rpx solid #d9d9d9;
+}
+.carContainer .content .loginGoods .goods .count .number {
+  border-left: 1rpx solid #d9d9d9;
+  border-right: 1rpx solid #d9d9d9;
+}
+.carContainer .content .loginGoods .order {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  width: 100%;
+  height: 750rpx;
+}
+.carContainer .content .loginGoods .order .btn {
+  width: 225rpx;
+  height: 118rpx;
+  background: #bb2c08;
+  color: #fff;
+}
+.carContainer .content .loginNoGoods {
+  margin-top: 40%;
+}
+.carContainer .content .loginNoGoods image {
+  margin-left: 30%;
+  width: 248rpx;
+  height: 248rpx;
+}
+.carContainer .content .loginNoGoods .btn {
+  width: 480rpx;
+  height: 92rpx;
+  background: #bb2c08;
+}
+

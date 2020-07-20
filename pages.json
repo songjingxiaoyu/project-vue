@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+        ,{
+            "path" : "pages/cateGory/cateGory",
+            "style" : {
+                "navigationBarTitleText": "分类页面"
+            }
+        }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" : {
+                "navigationBarTitleText": "值得买"
+            }
+        }
+        ,{
+            "path" : "pages/car/car",
+            "style" : {
+                "navigationBarTitleText": "购物车"
+            }
+        }
+        
+        ,{
+            "path" : "pages/person/person",
+            "style" : {
+                "navigationBarTitleText": "个人中心"
+            }
+        }
+        ,{
+            "path" : "components/recommend/recommend",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/recommendCateGory/recommendCateGory",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/cateList/cateList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网易严选",
+		"navigationBarBackgroundColor": "#BB2C08"
+	},
+    "tabBar":{
+        "color":"#555",
+        "selectedColor":"#D43C33",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath":"/static/images/tabBar/tab-home.png",
+                "selectedIconPath": "/static/images/tabBar/tab-home-current.png"
+            },
+            {
+                "pagePath": "pages/cateGory/cateGory",
+                "text": "分类页面",
+                "iconPath":"/static/images/tabBar/tab-cate.png",
+                "selectedIconPath": "/static/images/tabBar/tab-cate-current.png"
+            },
+            {
+                "pagePath": "pages/buy/buy",
+                "text": "值得买",
+                "iconPath":"/static/images/tabBar/tab-buy.png",
+                "selectedIconPath": "/static/images/tabBar/tab-buy-current.png"
+            },
+            {
+                "pagePath": "pages/car/car",
+                "text": "购物车",
+                "iconPath":"/static/images/tabBar/tab-cart.png",
+                "selectedIconPath": "/static/images/tabBar/tab-cart-current.png"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "text": "个人中心",
+                "iconPath":"/static/images/tabBar/tab-my.png",
+                "selectedIconPath": "/static/images/tabBar/tab-my-current.png"
+            }
+        ]
+    }
+}

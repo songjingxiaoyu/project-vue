@@ -1,0 +1,84 @@
+.cateGoryContainer .search {
+  position: relative;
+  padding: 10rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 690rpx;
+  height: 56rpx;
+  background: #ededed;
+  align-items: center;
+  border-radius: 10rpx;
+  margin: 10rpx auto;
+}
+.cateGoryContainer .search .iconfont {
+  width: 28rpx;
+  height: 28rpx;
+}
+.cateGoryContainer .search .placeholder {
+  text-align: center;
+}
+.cateGoryContainer .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-top: 1rpx solid #d9d9d9;
+  height: calc(100vh -76rpx);
+}
+.cateGoryContainer .content .left {
+  width: 20%;
+  height: 100%;
+  border-right: 1rpx solid #d9d9d9;
+}
+.cateGoryContainer .content .left .leftScroll .scrollItem {
+  position: relative;
+  height: 50rpx;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.cateGoryContainer .content .left .leftScroll .scrollItem.active:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-left: 3rpx solid #bb2c08;
+  height: 100%;
+  margin-left: 10rpx;
+}
+.cateGoryContainer .content .right {
+  width: 80%;
+}
+.cateGoryContainer .content .right .rightScroll {
+  text-align: center;
+}
+.cateGoryContainer .content .right .rightScroll .list {
+  margin: 20rpx auto;
+  width: 528rpx;
+  height: 100%;
+}
+.cateGoryContainer .content .right .rightScroll .list .listImg {
+  height: 190rpx;
+  width: 528rpx;
+}
+.cateGoryContainer .content .right .rightScroll .list .listItem {
+  display: inline-block;
+  width: 33.33%;
+}
+.cateGoryContainer .content .right .rightScroll .list .listItenImg {
+  width: 144rpx;
+  height: 144rpx;
+}
+.cateGoryContainer .content .right .rightScroll .list .text {
+  font-size: 26rpx;
+}
+

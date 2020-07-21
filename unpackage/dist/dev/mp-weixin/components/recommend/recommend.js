@@ -481,7 +481,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 59:
+/***/ 61:
 /*!************************************************************************************************!*\
   !*** D:/IT-code/project-vue/project-vue/main.js?{"page":"components%2Frecommend%2Frecommend"} ***!
   \************************************************************************************************/
@@ -497,5 +497,5 @@ createPage(_recommend.default);
 
 /***/ })
 
-},[[59,"common/runtime","common/vendor"]]]);
+},[[61,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/components/recommend/recommend.js.map

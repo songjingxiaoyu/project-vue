@@ -189,7 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 60:
+/***/ 62:
 /*!****************************************************************************************************************!*\
   !*** D:/IT-code/project-vue/project-vue/main.js?{"page":"components%2FrecommendCateGory%2FrecommendCateGory"} ***!
   \****************************************************************************************************************/
@@ -205,5 +205,5 @@ createPage(_recommendCateGory.default);
 
 /***/ })
 
-},[[60,"common/runtime","common/vendor"]]]);
+},[[62,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/components/recommendCateGory/recommendCateGory.js.map

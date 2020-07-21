@@ -1,0 +1,85 @@
+.buyContainer {
+  width: 750rpx;
+  height: 100vh;
+  background: #eee;
+}
+.buyContainer .header {
+  height: 685rpx;
+  position: relative;
+}
+.buyContainer .header .headerImg {
+  height: 520rpx;
+  position: relative;
+}
+.buyContainer .header .headerImg .simImg {
+  position: absolute;
+  top: 70rpx;
+  left: 20rpx;
+  width: 130rpx;
+  height: 68rpx;
+}
+.buyContainer .header .headerImg .bigImg {
+  width: 750rpx;
+  height: 520rpx;
+}
+.buyContainer .header .headerImg .text {
+  position: absolute;
+  top: 87rpx;
+  left: 150rpx;
+  color: #fff;
+}
+.buyContainer .header .list {
+  position: absolute;
+  left: 20rpx;
+  bottom: 0;
+  width: 710rpx;
+  height: 540rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+.buyContainer .header .list .scrollList {
+  width: 710rpx;
+  height: 540rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.buyContainer .header .list .scrollList .scrollItem {
+  width: 178rpx;
+  height: 100%;
+}
+.buyContainer .header .list .scrollList .scrollItem .top {
+  margin: 40rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .top image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .top .text {
+  white-space: nowrap;
+}
+.buyContainer .header .list .scrollList .scrollItem .top .text .textTop {
+  font-size: 30rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .top .text .textBottom {
+  font-size: 20rpx;
+  color: #888;
+}
+.buyContainer .header .list .scrollList .scrollItem .bottom {
+  margin: 40rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .bottom image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .bottom .text {
+  white-space: nowrap;
+}
+.buyContainer .header .list .scrollList .scrollItem .bottom .text .textTop {
+  font-size: 30rpx;
+}
+.buyContainer .header .list .scrollList .scrollItem .bottom .text .textBottom {
+  font-size: 20rpx;
+  color: #888;
+}
+

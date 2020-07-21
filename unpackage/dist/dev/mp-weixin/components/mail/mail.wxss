@@ -1,0 +1,60 @@
+.phoneContainer .logo image {
+  width: 268rpx;
+  height: 90rpx;
+  margin-top: 70rpx;
+  margin-left: 260rpx;
+}
+.phoneContainer .phone .phoneInput {
+  margin-left: 30rpx;
+  width: 670rpx;
+  height: 90rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.phoneContainer .phone .phonePlaceholder {
+  margin-left: 20rpx;
+}
+.phoneContainer .phone .password {
+  position: relative;
+}
+.phoneContainer .phone .password .passwordInput {
+  margin-left: 30rpx;
+  width: 670rpx;
+  height: 90rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.phoneContainer .phone .password .passwordPlaceholder {
+  margin-left: 20rpx;
+}
+.phoneContainer .phone .question {
+  height: 80rpx;
+  margin-left: 30rpx;
+  line-height: 80rpx;
+}
+.phoneContainer .phone .question .meet {
+  margin: 30rpx;
+  color: #888;
+  font-size: 24rpx;
+}
+.phoneContainer .phone .question .usePassword {
+  margin-left: 400rpx;
+  color: #888;
+  font-size: 24rpx;
+}
+.phoneContainer .phone .login {
+  width: 670rpx;
+  height: 94rpx;
+  background: #bb2c08;
+  border-radius: 10rpx;
+  margin-left: 40rpx;
+}
+.phoneContainer .phone .login text {
+  color: #fff;
+  font-size: 30rpx;
+  margin-left: 300rpx;
+  line-height: 94rpx;
+}
+.phoneContainer .phone .other {
+  margin-left: 300rpx;
+  margin-top: 70rpx;
+}
+

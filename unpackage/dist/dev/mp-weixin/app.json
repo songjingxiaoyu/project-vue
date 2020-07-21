@@ -9,7 +9,9 @@
     "components/recommendCateGory/recommendCateGory",
     "components/cateList/cateList",
     "pages/search/search",
-    "pages/login/login"
+    "pages/login/login",
+    "components/phone/phone",
+    "components/mail/mail"
   ],
   "subPackages": [],
   "window": {

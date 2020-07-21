@@ -1,6 +1,147 @@
 <template>
-	<view>
-		buy
+	<view class="buyContainer">
+        <!-- 头部 -->
+		<view class="header">
+            <!-- 头部图片 -->
+            <view class="headerImg">
+                <image class="bigImg" src="../../static/images/buy/buy.png" mode=""></image>
+                <image class="simImg" src="../../static/images/buy/值得买.png" mode=""></image>
+                <view class="text">严选好物 用心生活</view>
+            </view>
+            <!-- 头部scroll-view -->
+		    <view class="list">
+		        <scroll-view enable-flex scroll-x="true" class="scrollList">
+		            <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/e21381b7e1e7caebbe72488db9542163.gif" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">9.9超值</view>
+                                <view class="textBottom">爆品定价直降</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/74db07fdd266ea7282a55f4b1aeaf74c.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">每月好物</view>
+                                <view class="textBottom">当季必买清单</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/98f47f438097516c3c4b09adce6f486d.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">员工精选</view>
+                                <view class="textBottom">每天1款内部价</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/9d8114ce4ef435ceac5e82120efeec4c.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">晒单</view>
+                                <view class="textBottom">入选就有红包</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/e92a567f96b94dcea29eafea9ab42440.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">好物大赏</view>
+                                <view class="textBottom">官方排名发布</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/84395807297dbc88f6569e16960695f1.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">甄选佳</view>
+                                <view class="textBottom">爆品免费试用</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/1d94b7dcbf10a3e836bab65729eeaaad.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">明星商品</view>
+                                <view class="textBottom">百万粉丝之选</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/d98cef378330167ef79c5f956814836e.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">选购指南</view>
+                                <view class="textBottom">破解选购困难</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/ee3e05fed85f623c92256d5371087480.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">中国风物质</view>
+                                <view class="textBottom">系列微纪录片</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/f7eabd045aeaf6ea4379abdb7f45ad8e.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">好吃研究所</view>
+                                <view class="textBottom">时令美食抢先尝</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/c1fe06034fb5b4e378277e590d04845c.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">每日穿搭</view>
+                                <view class="textBottom">时尚买手力荐</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/17f2bc11d23d2be6b8d8fdf066bb68c9.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">特色系列</view>
+                                <view class="textBottom">发现时尚好货</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/2e038945352b0a8e7a339741b8c5f229.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">全球好物</view>
+                                <view class="textBottom">0关税即时达</view>
+                            </view>
+                        </view>
+                        <view class="bottom">
+                            <image src="https://yanxuan.nosdn.127.net/e29bd9f1a9f61e37b969d59566ea15b2.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                           <view class="text">
+                                <view class="textTop">工厂考察团</view>
+                                <view class="textBottom">探访严选工厂</view>
+                           </view>
+                        </view>
+                    </view>
+                    <view class="scrollItem">
+                        <view class="top">
+                            <image src="https://yanxuan.nosdn.127.net/321dac9cf0fa0edd8da0092a753531f3.png?imageView&amp;quality=65&amp;thumbnail=120y120" mode=""></image>
+                            <view class="text">
+                                <view class="textTop">HOME</view>
+                                <view class="textBottom">实景家具专栏</view>
+                            </view>
+                        </view>
+                        
+                    </view>
+		        </scroll-view>
+		    </view>
+		</view>
+        <!-- 瀑布流 -->
+        <view class="waterfall Container">
+             <waterfall column-count="2" column-width="auto">
+                <cell></cell>
+              </waterfall>
+        </view>
 	</view>
 </template>
 
@@ -15,5 +156,71 @@
 </script>
 
 <style lang="stylus">
-
+.buyContainer
+    width 750rpx
+    height 100vh
+    background #eee
+    // 头部
+    .header
+        height 685rpx
+        position relative
+        // 头部图片
+        .headerImg
+            height 520rpx
+            position relative
+            .simImg
+                position absolute
+                top 70rpx
+                left 20rpx
+                width 130rpx
+                height 68rpx
+            .bigImg
+                width 750rpx
+                height 520rpx
+            .text
+                position absolute
+                top 87rpx
+                left 150rpx
+                color #fff
+        // 头部 scroll-view
+        .list
+            position absolute
+            left 20rpx
+            bottom 0
+            width 710rpx
+            height 540rpx
+            background #fff
+            border-radius 10rpx
+            .scrollList
+                width 710rpx
+                height 540rpx
+                display flex
+                .scrollItem
+                    width 178rpx
+                    height 100%
+                    .top
+                        margin 40rpx
+                        image
+                            width 120rpx
+                            height 120rpx
+                        .text
+                            white-space nowrap
+                            .textTop
+                                font-size 30rpx
+                            .textBottom
+                                font-size 20rpx
+                                color #888
+                    .bottom
+                        margin 40rpx
+                        image
+                            width 120rpx
+                            height 120rpx
+                        .text
+                            white-space nowrap
+                            .textTop
+                                font-size 30rpx
+                            .textBottom
+                                font-size 20rpx
+                                color #888
+        
 </style>

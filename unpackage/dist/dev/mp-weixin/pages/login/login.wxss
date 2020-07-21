@@ -1,0 +1,73 @@
+.loginContainer .logo {
+  width: 750rpx;
+  height: 480rpx;
+  position: relative;
+}
+.loginContainer .logo image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 268rpx;
+  height: 90rpx;
+}
+.loginContainer .phoneMail .phone {
+  color: #fff;
+  background: #bb2c08;
+}
+.loginContainer .phoneMail .mail {
+  color: #bb2c08;
+}
+.loginContainer .phoneMail view {
+  position: relative;
+  width: 670rpx;
+  height: 94rpx;
+  margin-bottom: 32rpx;
+  margin-left: 40rpx;
+  text-align: center;
+  line-height: 94rpx;
+  border: 1rpx solid #bb2c08;
+}
+.loginContainer .phoneMail view image {
+  position: absolute;
+  left: 185rpx;
+  top: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.loginContainer .other {
+  position: fixed;
+  bottom: 100rpx;
+  left: 0;
+  width: 750rpx;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.loginContainer .other .weixin {
+  margin-right: 30rpx;
+  margin-left: 200rpx;
+}
+.loginContainer .other .borderLeft,
+.loginContainer .other .borderRight {
+  width: 2rpx;
+  height: 40rpx;
+  background: #7f7f7f;
+}
+.loginContainer .other .qq {
+  margin: 0 30rpx;
+}
+.loginContainer .other .weibo {
+  margin-left: 30rpx;
+}
+.loginContainer .other .otherItem image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.loginContainer .other .otherItem text {
+  color: #7f7f7f;
+}
+
